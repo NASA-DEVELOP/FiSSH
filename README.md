@@ -34,8 +34,8 @@ Climate indeces:
 	NOAA NCEP PDO
 
 NASA Earth Observations: 
-	MUR SST - downloaded from NOAA’s data server Easier Access to Scientific Data (ERDDAP) 
-	Aqua MODIS Chlorophyll-a - downloaded from NOAA’s data server Easier Access to Scientific Data (ERDDAP) 
+	MUR SST - downloaded from NOAAâ€™s data server Easier Access to Scientific Data (ERDDAP) 
+	Aqua MODIS Chlorophyll-a - downloaded from NOAAâ€™s data server Easier Access to Scientific Data (ERDDAP) 
 	OSCAR Ocean Surface Current - downloaded from Open-source Project for Network Data Access Protocol (OPeNDAP)
 
 NOTE: All downloaded data was processed in MATLAB into 15-day and monthly averages and saved into the .mat files that are packaged with the 
