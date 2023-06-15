@@ -1,7 +1,5 @@
-===============
-FiSSH
-Finding Suitable Spawning Habitats
-===============
+# FiSSH
+## Finding Suitable Spawning Habitats
 
 NASA DEVELOP 2018 Summer JPL Southern California Water Resources II Team
 Date Created: July, 2018
@@ -16,24 +14,23 @@ available data. It may be used to get an idea of the potential size of future gr
 The application was created using MATLAB's App Designer.
 
 
- Data Products
--------------
+## Data Products
 ***All required data products are packaged with the app under the directory /mat_files/
 
 Grunion Greeters data: Obtained from Dr. Karen Martin (Pepperdine University), recorded on the Walker Scale with values ranging from 0 to 5 
 describing the size and intensity of grunion runs (0 as little to no fish and 5 as a maximum sized grunion run).
 
-In situ measurements: 
+### In situ measurements: 
 	NOAA PFEL Coastal Upwelling Index 
 	NOAA NDBC Buoy Water Temperature
 	SCCOOS HABs
 	NOAA NCEI Air Temperature
 
-Climate indeces:
+### Climate indeces:
 	NOAA NCEI ENSO
 	NOAA NCEP PDO
 
-NASA Earth Observations: 
+### NASA Earth Observations: 
 	MUR SST - downloaded from NOAA’s data server Easier Access to Scientific Data (ERDDAP) 
 	Aqua MODIS Chlorophyll-a - downloaded from NOAA’s data server Easier Access to Scientific Data (ERDDAP) 
 	OSCAR Ocean Surface Current - downloaded from Open-source Project for Network Data Access Protocol (OPeNDAP)
@@ -41,14 +38,12 @@ NASA Earth Observations:
 NOTE: All downloaded data was processed in MATLAB into 15-day and monthly averages and saved into the .mat files that are packaged with the 
 software application.
 
- Required Packages
-===================
+## Required Packages
 MATLAB
 
- Parameters
--------------
+### Parameters
 
-FiSSH Window
+_FiSSH Window_
 1. Select desired "Beach Region" to analyze, 9 options available
 3. Check factors you wish to analyze and input numeric values. At least one factor must be checked.
 * "Chlorophyll-a" is an average of in situ SCCOOS and satellite Aqua MODIS chlorophyll-a data
@@ -63,7 +58,7 @@ the number of selected data points with grunion run conditions that most closely
 temperature, upwelling values). Other information about the conditions at the grunion runs including the year, month, air temperature, 
 pseudo-nitzschia, ENSO index, and PDO index are also in the output. 
 
-Animations Window
+_Animations Window_
 1. Select the dataset to create satellite imagery video
 2. Select time frame of video including start year, month, end year, month
 3. Choose whether you want grunion run indicators overlayed on the map
@@ -71,7 +66,6 @@ Animations Window
 * Video will output via movie player and also be saved as a .avi file
 NOTE: This is a beta version of the application, and the output for the video imagery is very slow
 
-Contact
----------
+## Contact
 Name(s): Alexandra Jones, Harrison Knapp, Annemarie Peacock, Lael Wakamatsu 
 E-mail(s): lexxii1456@gmail.com
